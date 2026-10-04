@@ -1,0 +1,9 @@
+{
+  "$comment": "Read by tools/generate-licence-notices.mjs (ADR 0098; vendored inventory added by ADR 0296). The generator discovers this file by walking third_party/ rather than naming components in code, because tools/check-lgpl-isolation.mjs rightly forbids the solver's name outside core/cocad-core. Keep `version` in step with pristine.json's upstream block - the pristine check is what guards the tree itself.",
+  "name": "planegcs (FreeCAD sketch solver)",
+  "version": "FreeCAD 1.1.3 (145529fe)",
+  "licence": "LGPL-2.1-or-later",
+  "role": "runtime",
+  "description": "FreeCAD's 2D geometric constraint solver, vendored byte-for-byte under third_party/planegcs/App and built as a replaceable shared library (planegcs.dll) per LGPL-2.1 s6(b).",
+  "licenceTextFile": "LICENSE.LGPL-2.1.txt"
+}

@@ -1,0 +1,25 @@
+{
+  "$comment": "Integrity manifest for the vendored PlaneGCS tree. Checked by tools/check-planegcs-pristine.mjs; see third_party/planegcs/README.md and docs/adr/0035. Do not hand-edit: run the checker with --update.",
+  "upstream": {
+    "project": "FreeCAD",
+    "repository": "https://github.com/FreeCAD/FreeCAD",
+    "tag": "1.1.3",
+    "commit": "145529fe741292ff0b3977a01195bf0247425794",
+    "path": "src/Mod/Sketcher/App/planegcs/",
+    "license": "LGPL-2.1-or-later",
+    "vendored": "2026-07-31"
+  },
+  "files": {
+    "Constraints.cpp": "cb709b3f179c7540f749e3723669a652877156a1ec5d10d7e97ad0fd7f4a812b",
+    "Constraints.h": "2b32626a5d9976ef1b14343692faec55058875433f6982523504ca3d77f76a15",
+    "GCS.cpp": "501f0d279ea57e39b61f49ca433e05c54fff3a0a7bfe6fe657b0f83f3464355c",
+    "GCS.h": "79a0683acd84273efd8fb2dce36d2dac23011b10b2c693ec5615ce9eb786f18a",
+    "Geo.cpp": "166a01743bba5e98640bbdbfa5fa615557dd2e9b507f7450de1e6a4649db8ed9",
+    "Geo.h": "17c59287625820418ad66c3e6cf9463ad9388f169de11535d2c25fa428771712",
+    "SubSystem.cpp": "c48700843911f923d1c05bbda736e45df66826db5a1860aca19aa16cf035bc2a",
+    "SubSystem.h": "9a601de5fc441675551cf717a21da184060eb2f95bd76a026430f053401ae758",
+    "Util.h": "ff6df589332423ecb4b29e7b2f8d9f2d779f6520861b4155bb8e5a9b2f7a4eeb",
+    "qp_eq.cpp": "28aaf79ce58d4515a6aa7d2c79c702d83b09e7633b7575706b24974b4953ecfb",
+    "qp_eq.h": "e1083df385b8639fc3fe609dc60f81bd662a99b10e4efbaab9b50c6d9026afab"
+  }
+}

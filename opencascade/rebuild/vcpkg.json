@@ -1,0 +1,12 @@
+{
+  "name": "occt-rebuild",
+  "version": "1.0.0",
+  "description": "Rebuilds the Open CASCADE DLLs CoCAD 1.0.0 ships: OCCT 8.0.0 (tag V8_0_0_p1) through the vcpkg port in ../vcpkg-port, with the same features (freetype, rapidjson), triplet x64-windows.",
+  "dependencies": [
+    {
+      "name": "opencascade",
+      "features": ["freetype", "rapidjson"]
+    }
+  ],
+  "builtin-baseline": "fd3dde77905b1b1890df3c8daa496d9b2fe44f7f"
+}
